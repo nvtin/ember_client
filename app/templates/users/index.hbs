@@ -1,0 +1,38 @@
+<div class="text-right">
+	{{#link-to 'users.new' classNames="btn btn-primary"}} new user {{/link-to}}
+	<br/>
+</div>
+{{#if model}}
+	<table class="table table-bordered">
+	  <thead>
+	    <tr>
+	      <th>First Name</th>
+	      <th>Last Name</th>
+	      <th>Username</th>
+	      <th class='text-center'>Actions</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    {{#each user in model}}
+	      <tr>
+	        <td>{{user.first_name}}</td>
+	        <td>{{user.last_name}}</td>
+	        <td>{{user.email}}</td>
+	        <td class='text-center'>
+	        	{{#link-to 'users.edit' user classNames='btn btn-default'}}
+			        edit				      {{/link-to}}
+			        <button class=" btn btn-danger" {{action 'delete' user}} title="save"> destroy </button>
+	        </td>
+	      </tr>
+	    {{/each}}
+	  </tbody>
+	</table>
+	<div class="text-center">
+	{{page-numbers content=content}}
+
+	</div>
+{{else}}
+<div class="text-center">
+	<h3>There are no users in system! </h3>
+</div>
+{{/if}}

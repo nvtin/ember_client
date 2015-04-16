@@ -1,0 +1,15 @@
+import Ember from 'ember';
+
+// export default Ember.Controller.extend({
+// });
+
+export default Ember.Controller.extend({
+  // needs: ['user'],
+  actions: {
+    'delete': function _delete(user) {
+
+      user.destroyRecord();
+      this.transitionToRoute('users');
+    }
+  }
+});

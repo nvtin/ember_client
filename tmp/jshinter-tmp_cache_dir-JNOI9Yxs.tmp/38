@@ -1,0 +1,4 @@
+module('JSHint - routes');
+test('routes/user_edit.js should pass jshint', function() { 
+  ok(true, 'routes/user_edit.js should pass jshint.'); 
+});

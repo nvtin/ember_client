@@ -1,0 +1,1 @@
+/Users/tinnv/workspace/ember-client/tmp/funnel-dest_NRpv2K.tmp/ember-data/README.md

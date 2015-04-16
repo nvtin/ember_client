@@ -1,0 +1,1 @@
+/Users/tinnv/workspace/ember-client/tmp/class-tmp_cache_dir-7yu7LeXl.tmp/assets/vendor.js

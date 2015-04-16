@@ -1,0 +1,4 @@
+module('JSHint - routes/users');
+test('routes/users/edit.js should pass jshint', function() { 
+  ok(false, 'routes/users/edit.js should pass jshint.\nroutes/users/edit.js: line 5, col 37, Missing semicolon.\n\n1 error'); 
+});

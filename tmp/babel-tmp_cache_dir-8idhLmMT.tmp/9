@@ -1,0 +1,13 @@
+import Ember from 'ember';
+
+export default Ember.Route.extend({
+    model: function model() {
+        // here we tell the route to use its parent model
+        return this.modelFor('user');
+    },
+    actions: {
+        goBack: function goBack() {
+            this.transitionTo('users');
+        }
+    }
+});

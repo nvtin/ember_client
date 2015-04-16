@@ -1,0 +1,20 @@
+import Ember from 'ember';
+import config from './config/environment';
+
+var Router = Ember.Router.extend({
+  location: config.locationType
+});
+
+export default Router.map(function () {
+  // this.resource('users');
+  this.resource('users', function () {
+    this.resource('users');
+    // this.resource('user', { path:'/:user_id' }, function(){
+    //   this.route('edit');
+    // });
+    this.resource('user', { path: '/:user_id' }, function () {
+      this.route('show');
+    });
+  });
+  // this.route('user');
+});

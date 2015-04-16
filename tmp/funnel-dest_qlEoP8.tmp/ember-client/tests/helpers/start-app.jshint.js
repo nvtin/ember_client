@@ -1,0 +1,1 @@
+/Users/tinnv/workspace/ember-client/tmp/jshinter-tmp_dest_dir-DlnGqj4t.tmp/helpers/start-app.jshint.js

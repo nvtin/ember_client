@@ -1,0 +1,1 @@
+/Users/tinnv/workspace/ember-client/app/app.js

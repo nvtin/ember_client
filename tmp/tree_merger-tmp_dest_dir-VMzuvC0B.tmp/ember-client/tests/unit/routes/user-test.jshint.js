@@ -1,0 +1,1 @@
+/Users/tinnv/workspace/ember-client/tmp/funnel-dest_59CDhb.tmp/ember-client/tests/unit/routes/user-test.jshint.js

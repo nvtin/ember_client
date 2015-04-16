@@ -1,0 +1,1 @@
+/Users/tinnv/workspace/ember-client/tmp/tree_merger-tmp_dest_dir-Ea1H4kYY.tmp/initializers/app-version.js

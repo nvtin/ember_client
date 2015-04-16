@@ -1,0 +1,4 @@
+module('JSHint - controllers/users');
+test('controllers/users/index.js should pass jshint', function() { 
+  ok(false, 'controllers/users/index.js should pass jshint.\ncontrollers/users/index.js: line 23, col 17, \'pagedArray\' is not defined.\n\n1 error'); 
+});

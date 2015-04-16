@@ -1,0 +1,5 @@
+@import 'bootstrap.min.css';
+.table{margin-top: 20px;}
+.pagination>li {
+  cursor: pointer;
+}

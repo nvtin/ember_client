@@ -1,0 +1,1 @@
+/Users/tinnv/workspace/ember-client/tmp/caching-writer-dest-dir_7MnZG5.tmp/assets/vendor.js

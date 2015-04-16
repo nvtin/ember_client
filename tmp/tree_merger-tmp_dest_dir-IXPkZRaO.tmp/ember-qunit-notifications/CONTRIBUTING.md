@@ -1,0 +1,1 @@
+/Users/tinnv/workspace/ember-client/tmp/funnel-dest_Ul5HAY.tmp/ember-qunit-notifications/CONTRIBUTING.md

@@ -1,0 +1,1 @@
+/Users/tinnv/workspace/ember-client/tmp/funnel-dest_ZEPIzw.tmp/ember-data/ember-data.prod.js

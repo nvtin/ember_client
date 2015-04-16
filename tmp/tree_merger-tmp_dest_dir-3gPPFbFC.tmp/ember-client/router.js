@@ -1,0 +1,1 @@
+/Users/tinnv/workspace/ember-client/tmp/babel-tmp_dest_dir-zJzvFvnd.tmp/ember-client/router.js

@@ -1,0 +1,28 @@
+import Ember from 'ember';
+
+export default Ember.Controller.extend({
+  // needs: ['user'],
+  actions: {
+    'delete': function _delete(user) {
+      if (window.confirm('Are you sure you want to delete this user?')) {
+        user.destroyRecord();
+        this.transitionToRoute('users');
+      }
+    }
+  },
+  // setup our query params
+  queryParams: ['page', 'perPage'],
+
+  // set default values, can cause problems if left out
+  // if value matches default, it won't display in the URL
+  page: 1,
+  perPage: 10,
+
+  // can be called anything, I've called it pagedContent
+  // remember to iterate over pagedContent in your template
+  pagedContent: pagedArray('content', { pageBinding: 'page', perPageBinding: 'perPage' }),
+
+  // binding the property on the paged array
+  // to a property on the controller
+  totalPagesBinding: 'pagedContent.totalPages'
+});

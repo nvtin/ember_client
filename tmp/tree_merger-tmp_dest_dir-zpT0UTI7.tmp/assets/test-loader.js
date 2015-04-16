@@ -1,0 +1,1 @@
+/Users/tinnv/workspace/ember-client/bower_components/ember-cli-test-loader/test-loader.js
